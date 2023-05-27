@@ -1,0 +1,102 @@
+/* Section="Head" */
+
+#head{
+    background-color: #e74694;;
+}
+.container-head{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    color: white;
+}
+.col-11{
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 1rem;
+}
+
+
+
+/* Section="hero-1" */
+
+.design{
+    font-family: 'Wix Madefor Display', sans-serif;
+    line-height: 2;
+}
+.design-2{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+}
+
+/* Section="companies-grid" */
+
+.design-3{
+    font-family:Averta PE,sans-serif;
+    font-size: 18px;
+}
+.icon{
+    height: 50px;
+}
+.icon-6{
+    height: 35px;
+}
+
+/* Section="Features" */
+
+.Features{
+    background-image: url("./images/background-image.svg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: 55%;
+    background-position-y: 40%;
+}
+
+@media (max-width:992px)
+{
+    .Features{
+        background-image: url("./images/background-image.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+/* Section="Examples" */
+.back{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.8));
+}
+.back img{
+   z-index: -1;
+}
+.text{
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+
+/* Section="CTA Section" */
+.background{
+    background-color: #183b54;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:75vh;
+}
+
+/* section="Footer" */
+.back-2{
+    background-color:#ebf2fa;
+}
+
+/* section="sub-Footer" */
+.back-3{
+    background-color: #b9cde4;;
+}
+  
+.design-4{
+    font-family:Averta PE,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #183b56;
+}

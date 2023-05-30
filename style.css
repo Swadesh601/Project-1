@@ -15,7 +15,25 @@
     padding-top: 1rem;
 }
 
+/* Section="Navbar" */
 
+.navbar-nav .nav-link{
+  font-family: Averta PE,sans-serif;
+  font-weight: 600;
+  color:black;
+}
+
+.navbar-nav .nav-link:hover{
+    color:blue;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+} 
+
+.butt{
+    color:black;
+}
 
 /* Section="hero-1" */
 

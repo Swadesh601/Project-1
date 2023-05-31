@@ -16,7 +16,6 @@
 }
 
 /* Section="Navbar" */
-
 .navbar-nav .nav-link{
   font-family: Averta PE,sans-serif;
   font-weight: 600;
@@ -35,7 +34,17 @@
     color:black;
 }
 
+@media (max-width:992px)
+{
+    .buttons .btn{
+        margin-bottom: 20px;
+        width: 100%;
+
+    }
+}
+
 /* Section="hero-1" */
+
 
 .design{
     font-family: 'Wix Madefor Display', sans-serif;
@@ -59,7 +68,7 @@
     height: 35px;
 }
 
-/* Section="Features" */
+/* Section="Function-Features" */
 
 .Features{
     background-image: url("./images/background-image.svg");
@@ -79,9 +88,15 @@
 }
 
 
-/* Section="Examples" */
+/* Section="Examples-card" */
+
 .back{
     background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.8));
+}
+
+.back:hover{
+    box-shadow: 0 0 10px gray ;  /* we used box-shadow property  
+    offset-x=0 and offset-y=0 while blur-radius=10px with color:gray; */ 
 }
 .back img{
    z-index: -1;
